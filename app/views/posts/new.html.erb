@@ -2,5 +2,21 @@
 
 <form action="/posts" method="post">
   <%# add form fields %>
+  <p>
+    <label for="author">Author</label>
+    <input type="text" author="author" id="author">
+  </p>
+
+  <p>
+    <label for="body">Description</label>
+    <input type="text" body="body" id="body" size=50>
+  </p>
+  
+  <p>
+    <label for="image">Image URL</label>
+    <input type="text" image="image" id="image">
+  </p>
+
   <button>Submit</button>
+  <a href ="/posts"><button>Cancel</button></a>
 </form>
